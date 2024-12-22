@@ -1,0 +1,439 @@
+html{
+font-size: 16px;
+}
+
+body{
+    background-color: rgb(226, 226, 216);
+    margin: 0,5%;
+}
+
+header{
+background-color:rgb( 10, 10, 10);
+
+}
+
+header img{
+margin: 10px 50px 00px 10px;
+float: left;
+}
+
+header div{
+    margin: 10px 00px 0px 00px;
+    padding-top: 3.75rem;
+
+}
+
+header p{
+text-align: center;
+margin: 10px 00px 00px 00px;
+padding-bottom: 120px;
+font-family: "Uncial+Antiqua";
+font-size: 52px;
+color:rgb(255, 255, 255);
+
+}
+nav{
+    margin: 00px 00px 20px 00px;
+    padding: 5px 50px 25px 25px;
+  /*  padding-left: 45px;
+    padding-bottom: 25px;*/
+    background-color: rgb(139, 136, 136);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+@media(width < 600px) {
+    .slogan{
+       font-size: 35px ;
+        
+    }
+
+}  
+
+
+
+
+nav li{
+/*margin: 00px 30px 10px 10px;*/ 
+padding: 00px 30px 30px 00px;
+font-family: "Uncial+Antiqua";
+color:blue;  
+list-style: none;
+float: left;
+
+}
+
+nav a{
+    text-decoration: none;
+}
+
+
+main{
+    background-color: rgb(226, 226, 216);
+    /*margin: 00px 00px 00px 00px;*/
+}
+/*h1{
+    text-align: center;
+}*/
+/*********index ******************/
+
+
+
+#promo{
+/*display:flex;*/
+width: 100%;
+
+}
+
+p{
+   /* font-family: "Uncial+Antiqua";*/
+    width: 100%;
+    font-size: 2.25rem;
+   font-family: "Updock", cursive;
+
+
+
+}
+
+.Titpromo{
+    display:flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+ /*  flex-wrap: wrap;*/
+   gap: 1.25rem;
+   justify-content: space-around;
+}
+
+
+@media(width < 600px) {
+    .Titpromo{
+        grid-template-columns: repeat(1, 1fr) ;
+        height: 78rem;
+    }
+
+}  
+
+
+
+.promociones{
+  border: 1px solid rgba(139, 136, 136, 0.87);
+  padding: 2rem;
+  flex-wrap: wrap ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#tutorial{
+    width: 100%;
+    margin: 1rem;
+}
+
+.formatoVideo{
+    display:flex;
+    /*  flex-wrap: wrap;*/
+   gap: 1.25rem;
+   justify-content: space-around;
+}
+
+
+
+@media(width < 600px) {
+    .formatoVideo{
+        padding-left: 0px;
+        margin-left: 0px;
+        gap: .3rem;
+    }
+
+}  
+
+
+
+
+
+#tutorial video{
+    border: 1px solid rgba(139, 136, 136, 0.87);
+  /*  padding: 1rem;*/
+    flex-wrap: wrap; 
+   width: 34.37rem;
+}
+
+
+
+.piepagina{
+    /*border: 1px solid rgba(139, 136, 136, 0.87);*/
+    padding: 2rem;
+    flex-wrap: wrap ;
+  }
+
+#nosotros{
+    width: 100%;
+    margin: 1rem;
+}
+
+#pieContactos{
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+/*
+#productos{
+    width: 100%;
+    margin: 1rem;
+}*/
+
+    /*
+.promociones{
+    border: 1px solid rgba(139, 136, 136, 0.87);
+    padding: 2rem;
+    flex-wrap: wrap ;
+  }*/
+
+
+.aticulos{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        /*grid-template-rows: 20rem 20rem;*/
+        gap: 1rem;
+        margin-top: 1rem;
+        height: 33rem;
+}
+
+
+@media(width < 600px) {
+    .aticulos{
+        grid-template-columns: repeat(1, 1fr) ;
+        height: 140rem;
+    }
+
+}
+    
+
+    
+.articulo{
+        border: 2px solid rgba(0, 0, 0, 0.5);
+        border-radius: .5 rem ;
+        padding: 1rem;
+        width: 17rem;
+        height: 30rem;
+        
+}
+
+.btnAgregarCarrito{
+    border-radius: 25px;
+    background-color: rgba(95, 89, 89, 0.203);
+    color: rgb( 10, 10, 10);
+    box-shadow: 3px 3px 15px 2px;
+}
+
+
+
+.btnAgregarDescripcion{
+    border-radius: 25px;
+    background-color: rgba(95, 89, 89, 0.203);
+    color: rgb( 10, 10, 10);
+    box-shadow: 3px 3px 15px 2px;
+}
+          
+.botCarrito{
+    border-radius: 25px;
+    background-color: rgba(95, 89, 89, 0.203);
+    color: rgb( 10, 10, 10);
+    box-shadow: 3px 3px 15px 2px;
+
+}                      
+
+/*#opiniones{
+    background-color: rgba(46, 41, 41, 0.418);
+    height: 40rem; 
+    width: 100%;
+}*/
+
+.reseñas{
+display: grid;
+grid-template-columns: repeat(4, 1fr) ;
+/*grid-template-rows: 20rem 20rem;*/
+gap: 1rem;
+margin-top: 1rem;
+height: 40rem;
+}
+
+@media(width < 600px) {
+        .reseñas{
+            grid-template-columns: repeat(1, 1fr) ;
+            height: 160rem;
+        }
+}
+
+.reseña{
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: .5rem ;
+    padding: 1rem;
+    width: 20rem;
+    height: 35rem;
+    transition: all 0.4s ease-out;
+    
+}
+.reseña:hover{
+    transform: translateY(-18px);
+
+}
+       
+/*************Contactos ********************************/
+
+#pieContactos{
+    width: 100%;
+    }
+    /*
+    p{
+       /* font-family: "Uncial+Antiqua";
+        width: 100%;
+        font-size: 2.25rem;
+       font-family: "Updock", cursive;
+    
+    
+    }*/
+    
+    .contContac{
+
+
+       display: grid;
+       grid-template-columns: repeat(3, 1fr) ;
+       /*grid-template-rows: 20rem 20rem;*/
+       gap: 1rem;
+       margin-top: 1rem;
+       height: 40rem;
+
+
+
+
+
+
+
+
+    }
+    .contContac label0{
+        margin-right: 2px;
+     }
+
+     .EspBoton{
+        margin-top: 1rem;
+
+     }
+
+    .contContac label1{
+       margin-right: 1rem;
+       
+    }
+    
+    .contElem{
+     /* border: 1px solid rgba(139, 136, 136, 0.87);*/
+      padding: 1rem;
+     /* flex-wrap: wrap ;*/
+    }
+
+    @media(width < 600px) {
+        .contContac{
+            grid-template-columns: repeat(1, 1fr) ;
+            height: 50rem;
+        }
+    }
+    .respFut{
+     /* border: 2px solid rgba(0, 0, 0, 0.5);*/
+      border-radius: .5rem ;
+      padding: 1rem;
+      width: 30rem;
+      height: 15rem;
+      transition: all 0.4s ease-out;
+    }
+   
+
+
+
+
+
+    .mapa{
+        overflow: hidden;
+        background: none ;
+        height: 13.125rem;
+        width: 13.125rem;
+    }    
+
+    #gmap_canvas{
+        height: 13.125rem;
+        width: 13.125rem;
+    }
+
+
+/*
+
+.reseñas{
+display: grid;
+grid-template-columns: repeat(4, 1fr) ;
+/*grid-template-rows: 20rem 20rem;*/
+/*gap: 1rem;
+margin-top: 1rem;
+height: 40rem;
+}
+
+@media(width < 600px) {
+        .reseñas{
+            grid-template-columns: repeat(1, 1fr) ;
+            height: 160rem;
+        }
+}
+
+.reseña{
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: .5rem ;
+    padding: 1rem;
+    width: 20rem;
+    height: 35rem;
+    transition: all 0.4s ease-out;
+    
+}
+.reseña:hover{
+    transform: translateY(-18px);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
